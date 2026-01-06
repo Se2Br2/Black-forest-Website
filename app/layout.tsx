@@ -45,14 +45,10 @@ export const metadata: Metadata = {
     icon: [
       { url: "/favicon-light.png", type: "image/png", media: "(prefers-color-scheme: light)" },
       { url: "/favicon-dark.png", type: "image/png", media: "(prefers-color-scheme: dark)" },
-      // запасной вариант, если браузер не поддерживает prefers-color-scheme для favicon
-      { url: "/favicon-light.png", type: "image/png" },
     ],
-    // иконка для iOS (на экран "Домой")
     apple: "/apple-touch-icon.png",
   },
 }
-
 
 export default function RootLayout({
   children,
