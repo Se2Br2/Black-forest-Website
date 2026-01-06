@@ -31,9 +31,16 @@ const frutiger = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Company Name - Premium Services & Solutions",
-  description: "Modern, elegant single-page website showcasing premium products and services",
+  title: "Black Forest",
+  description: "Квест-пространство Black Forest",
   generator: "v0.app",
+  openGraph: {
+    title: "Black Forest",
+    description: "Квест-пространство Black Forest",
+    type: "website",
+    locale: "ru_RU",
+    siteName: "Black Forest",
+  },
   icons: {
     icon: [
       {
